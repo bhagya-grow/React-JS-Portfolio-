@@ -151,24 +151,3 @@
     border-radius: 10px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .project-cards {
-        grid-template-columns: 1fr;
-        padding: 0 15px;
-    }
-    
-    .project-card {
-        padding: 20px;
-    }
-    
-    .buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .buttons a {
-        width: 100%;
-        text-align: center;
-    }
-}

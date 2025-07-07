@@ -4,6 +4,7 @@ import {useState,useRef} from "react";
 import "./NavBar.css";
 import AnchorLinks from "react-anchor-link-smooth-scroll";
 
+
 const NavBar = () => {
   const [menu,setMenu]=useState("home")
   return (
@@ -13,7 +14,9 @@ const NavBar = () => {
           <span>Bhagyadutta Das</span>
         </div>
         <div className="navLinks ">
+          
           <ul className="navmenu d-flex align-items-center">
+         
             <li ><AnchorLinks className={menu==="home"?"active-links":"hover-links"} href="#home" onClick={()=>setMenu("home")}>Home</AnchorLinks></li>
             <li ><AnchorLinks className={menu==="about"?"active-links":"hover-links"} href="#about" onClick={()=>setMenu("about")}>About</AnchorLinks></li>
             <li ><AnchorLinks className={menu==="skills"?"active-links":"hover-links"} href="#skills" onClick={()=>setMenu("skills")}>Skills</AnchorLinks></li>

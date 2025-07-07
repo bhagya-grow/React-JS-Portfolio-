@@ -7,7 +7,17 @@
 }
 
 .hero-left img {
-  width: 200px;
+  width: 300px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(78, 205, 196, 0.1);
+
+  transition: all 0.3s ease;
+}
+
+.hero-left:hover img {
+  transform: scale(1.05);
+ transition: 0.3s;
 }
 
 .hero-right {
@@ -22,41 +32,40 @@
 }
 
 .primary-btn {
-    padding: 12px 24px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    background: linear-gradient(45deg, #FF6B6B, #E63946);
-    color: white;
-    border: none;
-    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff6b6b, #e63946);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
 }
 
 .primary-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
 }
 
 .Secondary-btn {
-    padding: 12px 24px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    background: transparent;
-    color: #4ECDC4;
-    border: 2px solid #4ECDC4;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: transparent;
+  color: #4ecdc4;
+  border: 2px solid #4ecdc4;
 }
 
 .Secondary-btn:hover {
-    background: #4ECDC4;
-    color: #0E1A1C;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(78, 205, 196, 0.3);
+  background: #4ecdc4;
+  color: #0e1a1c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(78, 205, 196, 0.3);
 }
-

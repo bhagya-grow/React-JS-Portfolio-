@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import photo from "../../assets/photo.jpg";
+import pic from "../../assets/pic.jpg";
 
 const Hero = () => {
   return (
@@ -11,11 +11,11 @@ const Hero = () => {
             <p>Full Stack Developer passionate about creating innovative web solutions</p>
             <div className="button d-flex ">
                 <button className=" primary-btn ">View My Work</button>
-                <button className="  Secondary-btn">View My Work</button>
+                <button className="  Secondary-btn">Get In Touch</button>
             </div>
         </div>
         <div className="hero-left">
-            <img src={photo}  alt="" />
+            <img src={pic}  alt="" />
         </div>
       </div>
     </div>

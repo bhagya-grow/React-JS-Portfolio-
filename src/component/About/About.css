@@ -1,6 +1,6 @@
 .about {
   height: 70vh;
-  padding-top:120px ;
+  padding-top: 120px;
 }
 
 .card-body {
@@ -16,13 +16,11 @@
   transition: all 0.3s;
   background: #0e1a1c;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .card-body::before {
   content: "";
   position: absolute;
- 
   top: 0;
   left: 0;
   right: 0;
@@ -49,23 +47,6 @@
 
 .About-bottom {
   gap: 20px;
-}
-
-.read-button {
-  border: 2px solid #ff6b6b;
-  color: #ff6b6b;
-
-  padding: 10px 20px;
-  max-width: 170px;
-  border-radius: 50px;
-  cursor: pointer;
-  gap: 10px;
-  transition: all 0.3s ease-out;
-}
-
-.read-button:hover {
-  gap: 20px;
-  transition: all 0.3s;
 }
 
 .arrow-icon {

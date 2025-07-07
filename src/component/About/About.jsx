@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import Card from "../../assets/AboutCard.js";
 
-
 const About = () => {
   return (
     <div id="about" className="container-box">
@@ -20,15 +19,10 @@ const About = () => {
           <div className="About-bottom d-flex  ">
             {Card.map((item, idx) => {
               return (
-                // <div key={idx} className="card">
-                  <div key={idx}  className="card-body d-flex flex-column">
-                    <h1 className="card-title">{item.c_title}</h1>
-                    <p className="card-text">{item.c_desc}</p>
-                    {/* <button className="read-button justify-content-center d-flex align-items-center">
-                      Read More <FaArrowRight className="arrow-icon" />
-                    </button> */}
-                  </div>
-                // </div>
+                <div key={idx} className="card-body d-flex flex-column">
+                  <h1 className="card-title">{item.c_title}</h1>
+                  <p className="card-text">{item.c_desc}</p>
+                </div>
               );
             })}
           </div>

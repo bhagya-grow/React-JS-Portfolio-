@@ -1,6 +1,6 @@
 //Import Sections
 import React from "react";
-import {useState,useRef} from "react";
+import {useState} from "react";
 import "./NavBar.css";
 import AnchorLinks from "react-anchor-link-smooth-scroll";
 

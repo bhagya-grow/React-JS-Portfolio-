@@ -14,10 +14,6 @@ const Card = [
     c_title: "Performance",
     c_desc: "Optimizing applications for speed and best user experience",
   },
-
-  
-  
-
 ];
 
 export default Card;

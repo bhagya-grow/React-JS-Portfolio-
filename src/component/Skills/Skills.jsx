@@ -5,15 +5,15 @@ import SkillsCard from "../../assets/skills.js";
 const Skills = () => {
   return (
     <div id="skills" className="skills container-box">
-      <div className="container d-flex flex-column justify-content-center align-items-center gap-5">
+      <div className="container d-flex flex-column justify-content-center align-items-center">
         <div className="skill-title">
           <h1>Skills</h1>
         </div>
-        <div className="skills-slider d-flex  justify-content-center align-items-center gap-5">
+        <div className="skills-slider d-flex justify-content-center align-items-stretch">
           {SkillsCard.map((item, idx) => {
             return (
               <div key={idx} className="cards-flex">
-                <div className="slider-tile justify-content-between d-flex">
+                <div className="slider-tile justify-content-between d-flex align-items-center">
                   <h1 className="card-title">{item.name}</h1>
                   <p>{item.per}</p>
                 </div>

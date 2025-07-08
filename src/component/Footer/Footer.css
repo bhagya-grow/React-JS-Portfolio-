@@ -1,10 +1,72 @@
-.footer{
-    height: 50px;
-    background: #020f12;
-    font-weight: 700;
-    text-align: center;
-   position: relative;
-    padding: 10px auto;
-    
+.footer {
+  min-height: 80px;
+  background: linear-gradient(135deg, #020f12, #0a1a1e);
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  padding: 20px 10px;
+  color: #b8d4d6;
+  border-top: 1px solid rgba(78, 205, 196, 0.2);
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer .d-flex {
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer svg {
+  color: #4ecdc4;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 10px;
+    min-height: 60px;
+  }
+  
+  .footer .d-flex {
+    font-size: 0.9rem;
+  }
+  
+  .footer svg {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 12px 5px;
+    min-height: 50px;
+  }
+  
+  .footer .d-flex {
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+  
+  .footer svg {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px 5px;
+    min-height: 45px;
+  }
+  
+  .footer .d-flex {
+    font-size: 0.75rem;
+    gap: 5px;
+  }
+  
+  .footer svg {
+    font-size: 0.8rem;
+  }
 }
 
